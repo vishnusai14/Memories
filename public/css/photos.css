@@ -1,0 +1,26 @@
+.thumbnail {
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.thumbnail:hover {
+    transform: scale(1.5);
+}
+
+
+/* .thumbnail {
+    width: 200px;
+    height: 200px;
+}
+
+.thumbnail:hover {
+    position: relative;
+    top: -25px;
+    left: -35px;
+    width: 500px;
+    height: auto;
+    display: block;
+    z-index: 999;
+} */
