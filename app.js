@@ -3,7 +3,7 @@ const express = require("express")
 const bodyParser = require("body-parser")
 const app = express()
 const mongoose = require("mongoose")
-const PORT = 9000 || process.env.PORT
+const PORT = process.env.PORT || 9000
 app.use(bodyParser.urlencoded({ extended: true, limit: "10mb" }))
 app.set('view engine', 'ejs')
 app.use(express.static("public"))
